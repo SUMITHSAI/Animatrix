@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="line">
+            <div id="l1p1">
+                <h5>00</h5>
+                <h6>- 100</h6>
+            </div>
+            <h1>Your</h1>
+        </div>
+        <div class="line">
+            <h1>web experiences</h1>
+        </div>
+        <div class="line">
+            <h1>is loading right</h1>
+            <h2>Now</h2>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="page1"></div>
+        <div id="page2"></div>
+        <div id="page3"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- h
+ 1. Linked all files to each other
+ 2. Created a main div where we wont give height but assign
+    positon and color
+3. page 1 which is the child of the parent main, which should give the height of it as in vh not in % as its parent is not given the height.
+4. using the colorzilla, we now find the exact color codes for our website.
+5. if we apply locomotive then the position fixed wont be working, till the loading completes till then we cant scroll;
+6. created a loader div ahead of main div and giving values in styles.
+7. Get Fonts by console of  the font website and then network and then on fonts and then reload the page and u find the fonts there.
+8. double click on the fonts and download and convert them woff2 to ttf and finally we upload in the woff formant only, install them
+ekllo -->
