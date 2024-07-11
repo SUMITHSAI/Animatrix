@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obys Agency</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
     <link rel="shortcut icon" href="./assests/favicon.png" type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -48,20 +52,29 @@
                         <h4>Contacts</h4>
                     </div>
            </div>
-           <div class="hero">
+           <div class="hero" id="hero1">
             <h1>We Design</h1>
            </div>
-           <div class="hero">
+           <div class="hero" id="hero2">
             <h1>unique</h1>
            </div>
-           <div class="hero">
-            <h1>web/graphic</h1>
+           <div class="hero" id="hero3">
+            <h2>web/</h2>
+            <h2>graphics</h2>
            </div>
-           <div class="hero">
+           <div class="hero" id="hero4">
             <h1>experience</h1>
            </div>
         </div>
-        <div id="page2"></div>
+        <div id="page2">
+            <div id="video-container">
+                <div id="video-cursor">
+                    <i class="ri-play-mini-fill"></i>
+                </div>
+                <img src="https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg" alt="">
+                <video autoplay muted loop src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"></video>
+            </div>
+        </div>
         <div id="page3"></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

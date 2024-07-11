@@ -49,9 +49,14 @@ function loadingAnimation(){
     t1.to("#loader",{
         display:"none"
     })
+
+    t1.from("#hero1 h1,#hero2 h1,#hero3 h2,#hero4 h1",{
+                y:120,
+                stagger:0.2
+            })
 }
 
-loadingAnimation()
+
 
 function cursorAnimation(){
     document.addEventListener("mousemove",function(dets){
@@ -66,4 +71,5 @@ function cursorAnimation(){
       });
 }
 
+loadingAnimation()
 cursorAnimation()
