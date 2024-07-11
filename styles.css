@@ -292,12 +292,77 @@ body{
 
 #page4 .underline2{
     margin-top:11vw;
-    height:2px;
+    height:1.5px;
     margin-left:5.7vw;
     background-color: #fff;
     width:100%;
 }
 
+#page5{
+    min-height:100vh;
+    width:100%;
+    padding:5vw 0vw;
+    position:relative;
+}
+
+.elem,.elem2{
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-top:-3vw;
+    margin-bottom: 1vw;
+}
+
+.elem h1{
+    /* font-size:2.85vw; */
+    font-size:7vw;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight:400;
+    animation-name:scroller;
+    animation-iteration-count: infinite;
+    animation-duration:14s;
+    animation-timing-function: linear;
+    margin-right:16px;
+}
+
+.elem2 h1{
+    font-size:7vw;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight:400;
+    animation-name:scroller;
+    animation-iteration-count: infinite;
+    animation-duration:14s;
+    animation-timing-function: linear;
+    margin-right:16px;
+    animation-direction: reverse;
+}
+
+.elem span{
+    font-family: 'silk serif';
+    color:transparent;
+    font-style:italic;
+}
+
+.elem2 span{
+    font-family: 'silk serif';
+    color:transparent;
+    font-style:italic;
+}
+
+@keyframes scroller {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
 
 
 @keyframes anime{
