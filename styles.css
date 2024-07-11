@@ -11,6 +11,17 @@ html, body{
     width:100%;
 }
 
+#crsr{
+    height:2.3vw;
+    border-radius: 50%;
+    width: 2.3vw;
+    border: 1px solid #ffffffc8;
+    position: fixed;
+    z-index:9999;
+    mix-blend-mode:difference;
+    transform: translate(-40%,-30%);
+}
+
 #loader{
     height:100%;
     width:100%;
@@ -74,6 +85,46 @@ html, body{
     width:100%;
     background-color: #151515;
 }
+
+#page1 #nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:4.3vw 5.5vw;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+}
+
+#nav-part2 h4{
+    font-size:1.2vw;
+    font-weight:400;
+}
+
+.hero{
+    /* background-color: red; */
+    width: 72%;
+    margin-left:28%;
+}
+
+.hero:nth-child(2){
+    margin-top:10.9vh;
+}
+.hero:nth-child(4){
+    text-decoration: underline;
+}
+.hero h1{
+    font-size:7.3vw;
+    text-transform: uppercase;
+    line-height:7.3vw;
+    letter-spacing: 0.3vw;
+    font-weight:600;
+}
+
 
 @keyframes anime{
     0%{
