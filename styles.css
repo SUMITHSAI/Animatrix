@@ -11,6 +11,10 @@ html, body{
     width:100%;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #crsr{
     height:2.3vw;
     border-radius: 50%;
@@ -198,9 +202,103 @@ html, body{
 #page4{
     min-height:100vh;
     width:100%;
-    background-color: #FFA63D;
+    /* background-color: #FFA63D; */
+    position: relative;
+    padding-top: 4vh;
+}
+
+#p4-content{
+    width:60vw;
+    margin-left:28%;
     position: relative;
 }
+
+#p4-content h1{
+    font-size:6vw;
+    text-transform: uppercase;
+}
+
+#p4-content .underline{
+    height:2px;
+    width:100%;
+    background-color:#fff;
+    margin:4vw 0;
+}
+
+#p4-content p{
+    font-size:2.05vw;
+    width:50%;
+    margin-bottom:3vw;
+}
+
+#p4-pic{
+    /* background-color: red; */
+    display: flex;
+    /* align-items:center; */
+    /* justify-content: center; */
+}
+
+#p4-pic img{
+    object-fit: cover;
+    height:40vw;
+    width:48%;
+}
+
+#p4-pic p{
+    font-size:1.2vw;
+    height:100%;
+    line-height: 1.8vw;
+    width:38%;
+    margin-left:2.5vw;
+}
+
+#p4-box{
+    background-color: #3F7DF4;
+    width:45vw;
+    padding:4vw 4.2vw;
+    position: relative;
+    margin-top:-21vh;
+    margin-left:45vh;
+}
+
+.box-elems{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:1px solid #fff;
+    height: 4vw;
+    margin-bottom: 0vw;
+    margin-top: 1vw;
+    /* background-color: red; */
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+
+.box-elems h4{
+    font-weight:500;
+     font-size:1.8vw;
+     width:40%;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+}
+
+#p4-box .box-elems p{
+    width:50%;
+    font-size:1vw;
+    font-weight: 400;
+    margin-top:2vw;
+    height:30%;
+}
+
+#page4 .underline2{
+    margin-top:11vw;
+    height:2px;
+    margin-left:5.7vw;
+    background-color: #fff;
+    width:100%;
+}
+
+
 
 @keyframes anime{
     0%{
