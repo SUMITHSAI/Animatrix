@@ -617,10 +617,12 @@ body{
     body{
         background-color: #000;
     }
+
     #page1{
-        height:75vh;
-        width:153%;
-        background-color: #151515;
+        /* background-color: rgb(159, 147, 147); */
+        height:70vh;
+        width:100%;
+        /* background-color: #151515; */
     }
     
     #page1 #nav{
@@ -644,14 +646,9 @@ body{
     
     .hero{
         /* background-color: red; */
-        width: 72%;
-        margin-left:5%;
-        height: fit-content;
+        width: 90%;
         /* overflow:hidden; */
-        display: flex;
-        align-items: center;
-        z-index:999;
-        position: relative;
+        
     }
     
     .hero:nth-child(2){
@@ -659,16 +656,14 @@ body{
     }
     
     .hero h1{
-        font-size:14vw;
-        text-transform: uppercase;
-        line-height:14vw;
-        letter-spacing: 0.3vw;
-        font-weight:600;
+        font-size:10vw;
+        line-height:10vw;
     }
-    
-    #hero3{
-        position: relative;
-        z-index:999;
+    .hero{
+        margin-left:7%;
+    }
+    #hero1{
+        margin-top:28vw;
     }
     
    
@@ -683,29 +678,28 @@ body{
     }
     
     .hero h2{
-        font-size:14vw;
+        font-size:10vw;
         text-transform: uppercase;
-        line-height:14vw;
+        line-height:10vw;
         letter-spacing: 0.3vw;
         font-weight:600;
-        border-bottom:1vw solid #fff;
+        border-bottom:0.8vw solid #fff;
         padding-bottom:0.8vw;
         transition:all ease 0.3
     }
 
     #page2{
-        height:100vh;
-        width:150%;
+        max-height:8vh;
+        width:100%;
         position: relative;
         background-color: #000;
         margin-top:1vw;
         padding-top:2vh ;
-        margin-bottom:20vw;
+        margin-bottom:180vw;
 
     }
     
     #video-container{
-        margin-left:5vw;
         padding:0.5vh;
         background-color: #000;
     }
@@ -713,13 +707,14 @@ body{
     #page3{
         /* background-color: rgb(145, 135, 137); */
         min-height:100vh;
-        width:153%;
+        width:100%;
         padding:2vw 2vw;
+        margin-bottom:15vw;
     }
     
     #page3 h1{
-        font-size:16vw;
-        margin-left:7vw;
+        font-size:10vw;
+        margin-left:7%;
     }
 
     /* #page3 h1:before{
@@ -736,7 +731,7 @@ body{
         width:90%;
         margin-top:9vw;
         margin-bottom: 14vw;
-        margin-left:8vw;
+        margin-left:7%;
     }
     
     #page3 #img-div-container{
@@ -748,24 +743,25 @@ body{
     }
     
     .img-div{
-        height:100vh;
-        width:152vw;
+        margin-left:5vw;
+        height:70%;
+        width:90%;
     }
 
     #pre-next{
-        height:100vh;
-        width:152vw;
+        height:70%;
+        width:90%;
     }
-    
+
     #next{
         margin-top:2vw;
-        width:152vw;
-        height:100vh;
+        height:30%;
+        width:90%;
     }
     
     #next2{
-        width:152vw;
-        height:100vh;
+        height:30%;
+        width:90%;
     }
     
     /* ._canvas_container{
@@ -775,7 +771,7 @@ body{
 
     #page4{
         min-height: 100vh;
-        width:153%;
+        width:100%;
         /* background-color: red; */
         padding:2vw 2vw;
         /* padding-top: 4vh; */
@@ -798,7 +794,7 @@ body{
     }
     
     #p4-content h1{
-        font-size:16vw;
+        font-size:10vw;
         margin-left:7vw;
     }
     
@@ -808,9 +804,9 @@ body{
     }
     
     #p4-content p{
-        font-size:9vw;
+        font-size:6vw;
         width:90%;
-        margin-top:18vw;
+        margin-top:12vw;
         margin-left:7vw;
         margin-bottom:12vw;
     }
@@ -823,29 +819,31 @@ body{
     
     #p4-pic img{
         object-fit: cover;
-        height:100vh;
-        width:100%;
+        height:60vh;
+        width:95%;
     }
     
     #p4-pic p{
-        font-size:6vw;
-        line-height: 8vw;
+        font-size:4vw;
+        line-height: 6vw;
         width:80%;
         margin-left:7vw;
     }
     
     #p4-box{
         background-color: #3F7DF4;
-        width:100%;
-        height:100vh;
+        width:95%;
+        height:60vh;
         padding:0vw 4.2vw;
         margin-top:-8vw;
         margin-left:0vw;
     }
     
-    .box-elems{
-        
-        height: 30vw;
+    #crsr{
+        display: none;
+    }
+    .box-elems{ 
+        height: 20vw;
         margin-bottom: 0vw;
         margin-top: 1vw;
         /* background-color: red; */
@@ -854,35 +852,43 @@ body{
     }
     
     .box-elems h4{
-         font-size:6vw;
+         font-size:4vw;
          line-height:9vw;
          margin-top: 2vw;
          margin-bottom: 2vw;
     }
+
     
     #p4-box .box-elems p{
-        font-size:6vw;
+        font-size:4vw;
         margin-top:10vw;
+    }
+
+    #p4-content .underline2{
+        margin-top:10vw;
+        margin-bottom:0vw;
+        max-width:95%;
+        margin-left:0vw;
     }
 
     #page5{
         margin-left: 4vw;
         min-height:50vh;
-        width:150%;
+        width:95%;
         padding:5vw 0vw;
         margin-right:9vw;
     }
     
     
     .elem,.elem2{
-        margin-bottom: -6vw;
+        margin-bottom: -2vw;
     }
 
     .elem h1{
-        font-size:15vw;
+        font-size:10vw;
     }
     .elem2 h1{
-        font-size:15vw;
+        font-size:10vw;
     }
     
     #footer-div{
@@ -891,7 +897,7 @@ body{
     
     #footer{
         min-height:100vh;
-        width:149%;
+        width:100%;
         position: relative;
         margin-left:4vw;
         padding:2vw 6vw;
@@ -902,13 +908,13 @@ body{
     }
     
     .blocks h6{
-        font-size:6vw;
+        font-size:4vw;
         font-weight:600;
-        margin-bottom:8vw;
+        margin-bottom:4vw;
     }
     
     .blocks h5{
-        font-size:9vw;
+        font-size:6vw;
         font-weight:400;
     }
     
@@ -918,20 +924,24 @@ body{
     }
     
     #footer h1{
-        text-transform: uppercase;
-        font-size:16vw;
+        font-size:10vw;
     }
     
     #footer h1:before{
-        top:-5%;
-        left:3%;
-        font-size:6.5vw;
+        top:-3%;
+        left:5%;
+        font-size:5vw;
     }
     #copyright h6{
-        margin:16vw 0;
-        font-size:10vw;
+        margin:1vw 0;
+        font-size:5vw;
         font-family: 'plain text', sans-serif;
     }
 
+    .blank{
+        height:25vh;
+        width:95%;
+        background-color: #000;
+    }
 
 }
